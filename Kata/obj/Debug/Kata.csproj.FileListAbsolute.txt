@@ -1,0 +1,9 @@
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\bin\Debug\Kata.dll
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\bin\Debug\Kata.pdb
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\bin\Debug\nunit.framework.dll
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\bin\Debug\Ploeh.AutoFixture.dll
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\bin\Debug\nunit.framework.xml
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\bin\Debug\Ploeh.AutoFixture.xml
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\obj\Debug\Kata.csprojResolveAssemblyReference.cache
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\obj\Debug\Kata.dll
+c:\users\julia\onedrive\dokumenter\visual studio 2015\Projects\Kata\Kata\obj\Debug\Kata.pdb
