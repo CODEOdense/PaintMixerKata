@@ -12,26 +12,13 @@ namespace Kata
             if (!(amountML > 0)) throw new ArgumentOutOfRangeException("No (or negative) amount of paint i not some paint");
             if (c == null) throw new ArgumentNullException("c");
 
-
             Color = c;
             Volume = amountML;
         }
 
         public static Paint operator +(Paint a, Paint b)
         {
-            if (a == null) throw new ArgumentNullException(nameof(a));
-            if (b == null) throw new ArgumentNullException(nameof(b));
-
-            var totalAmount = a.Volume + b.Volume;
-            var aFactor = a.Volume / totalAmount;
-            var bFactor = b.Volume / totalAmount;
-
-            var c = new Color(
-                (int)((a.Color.R * aFactor) + (b.Color.R * bFactor)),
-                (int)((a.Color.G * aFactor) + (b.Color.G * bFactor)),
-                (int)((a.Color.B * aFactor) + (b.Color.B * bFactor)));
-
-            return new Paint(c, totalAmount);
+            return Mixer.Mix(a, b);
         }
 
         public override string ToString()

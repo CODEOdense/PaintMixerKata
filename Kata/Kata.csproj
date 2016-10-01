@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Color.cs" />
+    <Compile Include="ColorMix.cs" />
     <Compile Include="ColorTestss.cs" />
     <Compile Include="ColorValue.cs" />
     <Compile Include="ColorValueTests.cs" />

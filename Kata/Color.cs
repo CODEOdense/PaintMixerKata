@@ -36,9 +36,7 @@ namespace Kata
 
         public static Color operator +(Color a, Color b)
         {
-            if (a == null) throw new ArgumentNullException(nameof(a));
-            if (b == null) throw new ArgumentNullException(nameof(b));
-            return new Color((a.R + b.R) / 2, (a.G + b.G) / 2, (a.B + b.B) / 2);
+            return Mixer.Mix(a, b);
         }
 
         
